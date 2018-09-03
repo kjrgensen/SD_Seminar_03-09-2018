@@ -1,0 +1,26 @@
+{
+  "id": "4c307833-b9e2-44db-9457-16971ced67f0",
+  "name": "SD Seminar",
+  "publisher": "SuperUser Demo",
+  "brief": "Very Breif",
+  "description": "This is a SuperUser Demo",
+  "version": "1.0.0.0",
+  "compatibilityId": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "capabilities": [],
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "11.0.0.0",
+  "application": "11.0.0.0",
+  "features": "TranslationFile",
+  "showMyCode": true,
+  "target": "Internal",
+  "idRange": {
+    "from": 123456700,
+    "to": 123456799
+  }
+}
