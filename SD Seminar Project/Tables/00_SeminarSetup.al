@@ -9,6 +9,7 @@ table 123456700 "CSD Seminar Setup"
         {
             Caption = 'Primary Key';
             TableRelation = "No. Series";
+            
         }
         field(20;"Seminar Nos.";Code[20])
         {
@@ -24,7 +25,7 @@ table 123456700 "CSD Seminar Setup"
         {
             Caption = 'Posted Seminar Reg. Nos.';
             TableRelation = "No. Series";
-        }
+             }
     }
 
     keys
