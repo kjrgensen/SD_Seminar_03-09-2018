@@ -77,12 +77,12 @@ page 123456701 "CSD Seminar Card"
                     Caption='Co&mments';
                     RunObject=page "CSD Seminar Comment Sheet";
                     RunPageLink = "Table Name"=const(Seminar),"No."=field("No.");
-                    Image = Comment;
+                    Image = Add;
                     Promoted = true;
                     PromotedIsBig = true;
                     PromotedOnly = true;
                 }
-                // >> Lab 8-2
+                
                 action("Ledger Entries")
                 {
                     Caption='Ledger Entries';
@@ -93,7 +93,7 @@ page 123456701 "CSD Seminar Card"
                     ShortcutKey="Ctrl+F7";
                     Image=WarrantyLedger;
                 }
-                // >> Lab 8-2
+                
                 action("&Registrations")
                 {
                     Caption='&Registrations';
@@ -103,10 +103,10 @@ page 123456701 "CSD Seminar Card"
                     Promoted=true;
                     PromotedCategory=Process;
                 }
-                // << Lab 8-2
+                
             }
         }
-        // >> Lab 8-2
+        
         area(Processing)
         {
             action("Seminar Registration")
@@ -115,12 +115,12 @@ page 123456701 "CSD Seminar Card"
                 RunObject= page "CSD Seminar Registration";
                 RunPageLink="Seminar No."=field("No.");
                 RunPageMode=Create;
-                Image=NewTimesheet;
+                Image=Answers;
                 Promoted=true;
                 PromotedCategory=New;
 
             }
         }
-        // << Lab 8-2
+        
     }
 }

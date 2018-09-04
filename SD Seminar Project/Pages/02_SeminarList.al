@@ -62,7 +62,7 @@ page 123456702 "CSD Seminar List"
                     PromotedIsBig = true;
                     PromotedOnly = true;
                 }
-                // >> Lab 8-2
+                
                 action("Ledger Entries")
                 {
                     Caption='Ledger Entries';
@@ -73,7 +73,7 @@ page 123456702 "CSD Seminar List"
                     ShortcutKey="Ctrl+F7";
                     Image=WarrantyLedger;
                 }
-                // >> Lab 8-2
+                
                 action("&Registrations")
                 {
                     Caption='&Registrations';
@@ -83,10 +83,10 @@ page 123456702 "CSD Seminar List"
                     Promoted=true;
                     PromotedCategory=Process;
                 }
-                // << Lab 8-2
+            
             }
         }
-        // >> Lab 8-2
+        
         area(Processing)
         {
             action("Seminar Registration")
@@ -101,6 +101,5 @@ page 123456702 "CSD Seminar List"
 
             }
         }
-        // << Lab 8-2
-    }
+   }
 }

@@ -2,8 +2,8 @@ report 123456701 SeminarRegParticipantList
 {
     Caption='Seminar Reg.- Participant List';
     DefaultLayout=RDLC;
-   // RDLCLayout='.SD Seminar Project/Layouts/SeminarRegParticipantList.rdl';
-        
+    RDLCLayout='./Layouts/SeminarRegParticipantList.rdl';
+   
     UsageCategory=ReportsAndAnalysis;
     dataset
     {
@@ -12,7 +12,9 @@ report 123456701 SeminarRegParticipantList
             DataItemTableView=sorting("No.");
             RequestFilterFields="No.","Seminar No."; 
 
-            column(No_;"No.")
+
+
+             column(No_;"No.")
             {
                 IncludeCaption=true;
             }

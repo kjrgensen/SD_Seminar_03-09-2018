@@ -1,9 +1,9 @@
 {
   "id": "4c307833-b9e2-44db-9457-16971ced67f0",
-  "name": "SD Seminar",
+  "name": "Ext V2.0 Seminar Example",
   "publisher": "SuperUser Demo",
-  "brief": "Very Breif",
-  "description": "This is a SuperUser Demo",
+  "brief": "Yes! Very Breif Indeed",
+  "description": "This is a SuperUser Demo. NAV2018CU6 App/Web-client functional. GitHub repo at: https://github.com/kjrgensen/SD_Seminar_03-09-2018",
   "version": "1.0.0.0",
   "compatibilityId": "1.0.0.0",
   "privacyStatement": "",

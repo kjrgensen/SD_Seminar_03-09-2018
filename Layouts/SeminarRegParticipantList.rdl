@@ -1150,36 +1150,6 @@
                 <PaddingBottom>2pt</PaddingBottom>
               </Style>
             </Textbox>
-            <Textbox Name="UserID">
-              <CanGrow>true</CanGrow>
-              <KeepTogether>true</KeepTogether>
-              <Paragraphs>
-                <Paragraph>
-                  <TextRuns>
-                    <TextRun>
-                      <Value>=User!UserID</Value>
-                      <Style />
-                    </TextRun>
-                  </TextRuns>
-                  <Style />
-                </Paragraph>
-              </Paragraphs>
-              <rd:DefaultName>UserID</rd:DefaultName>
-              <Top>0.73833in</Top>
-              <Left>4.91542in</Left>
-              <Height>0.25in</Height>
-              <Width>1.39583in</Width>
-              <ZIndex>4</ZIndex>
-              <Style>
-                <Border>
-                  <Style>None</Style>
-                </Border>
-                <PaddingLeft>2pt</PaddingLeft>
-                <PaddingRight>2pt</PaddingRight>
-                <PaddingTop>2pt</PaddingTop>
-                <PaddingBottom>2pt</PaddingBottom>
-              </Style>
-            </Textbox>
           </ReportItems>
           <Style>
             <Border>
@@ -1192,6 +1162,15 @@
     </ReportSection>
   </ReportSections>
   <ReportParameters>
+    <ReportParameter Name="SeminarRegistrationHeaderCap">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>SeminarRegistrationHeaderCap</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>SeminarRegistrationHeaderCap</Prompt>
+    </ReportParameter>
     <ReportParameter Name="No_Caption">
       <DataType>String</DataType>
       <DefaultValue>
@@ -1282,15 +1261,6 @@
       </DefaultValue>
       <Prompt>Participant_NameCaption</Prompt>
     </ReportParameter>
-    <ReportParameter Name="SeminarRegistrationHeaderCap">
-      <DataType>String</DataType>
-      <DefaultValue>
-        <Values>
-          <Value>SeminarRegistrationHeaderCap</Value>
-        </Values>
-      </DefaultValue>
-      <Prompt>SeminarRegistrationHeaderCap</Prompt>
-    </ReportParameter>
   </ReportParameters>
   <ReportParametersLayout>
     <GridLayoutDefinition>
@@ -1300,57 +1270,57 @@
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>0</RowIndex>
-          <ParameterName>No_Caption</ParameterName>
+          <ParameterName>SeminarRegistrationHeaderCap</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>1</RowIndex>
-          <ParameterName>Seminar_No_Caption</ParameterName>
+          <ParameterName>No_Caption</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>2</RowIndex>
-          <ParameterName>Seminar_NameCaption</ParameterName>
+          <ParameterName>Seminar_No_Caption</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>3</RowIndex>
-          <ParameterName>Starting_DateCaption</ParameterName>
+          <ParameterName>Seminar_NameCaption</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>4</RowIndex>
-          <ParameterName>DurationCaption</ParameterName>
+          <ParameterName>Starting_DateCaption</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>5</RowIndex>
-          <ParameterName>Instructor_NameCaption</ParameterName>
+          <ParameterName>DurationCaption</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>6</RowIndex>
-          <ParameterName>Room_NameCaption</ParameterName>
+          <ParameterName>Instructor_NameCaption</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>7</RowIndex>
-          <ParameterName>Bill_to_Customer_No_Caption</ParameterName>
+          <ParameterName>Room_NameCaption</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>8</RowIndex>
-          <ParameterName>Participant_Contact_No_Caption</ParameterName>
+          <ParameterName>Bill_to_Customer_No_Caption</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>9</RowIndex>
-          <ParameterName>Participant_NameCaption</ParameterName>
+          <ParameterName>Participant_Contact_No_Caption</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>10</RowIndex>
-          <ParameterName>SeminarRegistrationHeaderCap</ParameterName>
+          <ParameterName>Participant_NameCaption</ParameterName>
         </CellDefinition>
       </CellDefinitions>
     </GridLayoutDefinition>
