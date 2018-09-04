@@ -1,10 +1,5 @@
 page 123456710 "CSD Seminar Registration"
 {
-    // CSD1.00 - 2018-01-01 - D. E. Veloper
-    //   Chapter 6 - Lab 3-1
-    //     - Created new page
-    //   Chapter 7 - Lab 5-8
-    //     - Added Post Action  
 
     Caption = 'Seminar Registration';
     PageType = Document;

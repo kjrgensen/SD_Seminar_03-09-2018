@@ -1,6 +1,5 @@
 codeunit 123456731 "CSD Seminar Jnl.-Check Line"
-// CSD1.00 - 2018-01-01 - D. E. Veloper
-// Chapter 7 - Lab 2-1
+
 {
     TableNo = "CSD Seminar Journal Line";
 

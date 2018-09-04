@@ -1,7 +1,5 @@
 page 123456740 "CSD Seminar Manager Activities"
-// CSD1.00 - 2018-01-01 - D. E. Veloper
-//   Chapter 10 - Lab 1 - 2
-//     - Created new page
+
 {
     PageType = CardPart;
     SourceTable = "CSD Seminar Cue";

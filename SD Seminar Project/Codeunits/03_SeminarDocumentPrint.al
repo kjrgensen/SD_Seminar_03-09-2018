@@ -1,10 +1,5 @@
 codeunit 123456703 "CSD Seminar Document-Print"
 {
-    // CSD1.00 - 2018-01-01 - D. E. Veloper
-    //   Chapter 9 - Lab 1
-    //     - Created new codeunit
-
-
     trigger OnRun();
     begin
     end;

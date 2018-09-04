@@ -1,11 +1,6 @@
 codeunit 123456700 "CSD Seminar-Post"
 {
-    // CSD1.00 - 2018-01-01 - D. E. Veloper
-    //   Chapter 7 - Lab 5-2
-    //     - Created new codeunit
-
     TableNo = 123456710;
-
     trigger OnRun();
     begin
         ClearAll;

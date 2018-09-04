@@ -1,8 +1,5 @@
 page 123456736  "CSD Posted Seminar Reg. List"
 {
-    // CSD1.00 - 2018-01-01 - D. E. Veloper
-    //   Chapter 7 - Lab 3
-    //     - Created new page
 
     Caption = 'Posted Seminar Registration List';
     CardPageID =  "CSD Posted Seminar Reg.";

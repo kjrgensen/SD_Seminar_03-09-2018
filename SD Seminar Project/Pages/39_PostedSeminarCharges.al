@@ -1,9 +1,6 @@
 page 123456739  "CSD Posted Seminar Charges"
 {
-    // CSD1.00 - 2018-01-01 - D. E. Veloper
-    //   Chapter 7 - Lab 3
-    //     - Created new page
-
+     
     AutoSplitKey = true;
     Caption = 'Posted Seminar Charges';
     Editable = false;

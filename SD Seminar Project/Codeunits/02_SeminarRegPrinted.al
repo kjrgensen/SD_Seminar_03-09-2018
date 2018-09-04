@@ -1,6 +1,5 @@
 codeunit 123456702 SeminarRegPrinted
-//   Chapter 9 - Lab 1-2
-//     - Added Codeunit
+
 {
     TableNo = "CSD Seminar Reg. Header";
 

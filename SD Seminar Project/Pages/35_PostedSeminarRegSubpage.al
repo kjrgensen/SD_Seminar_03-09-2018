@@ -1,9 +1,5 @@
 page 123456735  "CSD Post Seminar Reg. Subpage"
 {
-    // CSD1.00 - 2018-01-01 - D. E. Veloper
-    //   Chapter 7 - Lab 3
-    //     - Created new page
-
     AutoSplitKey = true;
     Caption = 'Posted Lines';
     DelayedInsert = true;

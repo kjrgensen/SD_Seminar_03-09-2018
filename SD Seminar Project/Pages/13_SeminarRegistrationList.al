@@ -1,13 +1,6 @@
 page 123456713 "CSD Seminar Registration List"
 {
-    // CSD1.00 - 2018-01-01 - D. E. Veloper
-    //   Chapter 6 - Lab 3
-    //     - Created new page
-    //   Chapter 7 - Lab 5-8
-    //     - Added Post Action 
-    //   Chapter 9 - Lab 5-8
-    //     - Added Post Acti
-
+    
     Caption = 'Seminar Registration List';
     CardPageID = "CSD Seminar Registration";
     Editable = false;
