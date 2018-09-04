@@ -1,8 +1,5 @@
 table 123456731 "CSD Seminar Journal Line"
 {
-    // CSD1.00 - 2018-01-01 - D. E. Veloper
-    //   Chapter 7 - Lab 1 - 2
-    //     - Created new table
 
     Caption = 'Seminar Journal Line';
 
