@@ -1,5 +1,6 @@
 page 123456700 "CSD Seminar Setup"
-
+// CSD1.00 - 2018-01-01 - D. E. Veloper
+// Chapter 5 - Lab 3-4
 {
     PageType = Card;
     SourceTable = "CSD Seminar Setup";

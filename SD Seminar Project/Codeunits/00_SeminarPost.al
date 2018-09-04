@@ -1,6 +1,9 @@
 codeunit 123456700 "CSD Seminar-Post"
 {
-    
+    // CSD1.00 - 2018-01-01 - D. E. Veloper
+    //   Chapter 7 - Lab 5-2
+    //     - Created new codeunit
+
     TableNo = 123456710;
 
     trigger OnRun();
@@ -40,7 +43,7 @@ codeunit 123456700 "CSD Seminar-Post"
 
             Window.Update(1,StrSubstNo(NewText004,"No.",PstdSeminarRegHeader."No."));
             
-            CopyCommentLines(SeminarCommentLine."Table Name"::"Seminar Registration", SeminarCommentLine."Table Name":: "Posted Seminar Registration", "No.",PstdSeminarRegHeader."No.");
+            CopyCommentLines(SeminarCommentLine."Table Name"::"Seminar Registration Header", SeminarCommentLine."Table Name":: "Posted Seminar Registration", "No.",PstdSeminarRegHeader."No.");
             CopyCharges("No.",PstdSeminarRegHeader."No.");
 
             LineCount := 0; 

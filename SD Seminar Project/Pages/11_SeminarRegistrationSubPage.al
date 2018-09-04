@@ -1,5 +1,9 @@
 page 123456711 "CSD Seminar Reg. Subpage"
 {
+    // CSD1.00 - 2018-01-01 - D. E. Veloper
+    //   Chapter 6 - Lab 3
+    //     - Created new page
+
     Caption = 'Lines';
     DelayedInsert = true;
     PageType = ListPart;

@@ -1,4 +1,6 @@
 table 123456701 "CSD Seminar"
+// CSD1.00 - 2018-01-01 - D. E. Veloper
+// Chapter 5 - Lab 3-2 & Lab 3-3 
 {
     Caption = 'Seminar';
 

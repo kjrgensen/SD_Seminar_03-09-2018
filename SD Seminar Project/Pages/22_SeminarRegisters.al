@@ -1,6 +1,5 @@
 page 123456722 "CSD Seminar Registers"
-// CSD1.00 - 2018-01-01 - D. E. Veloper
-// Chapter 7 - Lab 2-11
+
 {
     PageType = List;
     SourceTable = "CSD Seminar Register";

@@ -1,6 +1,8 @@
 table 123456711 "CSD Seminar Registration Line"
 {
-
+    // CSD1.00 - 2018-01-01 - D. E. Veloper
+    //   Chapter 6 - Lab 1-5
+    //     - Created new table
     Caption='Seminar Registration Line';
 
     fields
