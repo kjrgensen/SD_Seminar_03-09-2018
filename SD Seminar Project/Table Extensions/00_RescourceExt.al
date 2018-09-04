@@ -22,7 +22,7 @@ tableextension 123456700 "CSD Rescource Extension" extends Resource
           Caption = 'Maximum Participants';
       }
 
-      field(123456703;"CSD Quatity Per Day";Decimal)
+      field(123456703;"CSD Quantity Per Day";Decimal)
       {
           Caption = 'Quantity Per Day';
       }
