@@ -1,12 +1,5 @@
 page 123456710 "CSD Seminar Registration"
 {
-    // CSD1.00 - 2018-01-01 - D. E. Veloper
-    //   Chapter 6 - Lab 3-1
-    //     - Created new page
-    //   Chapter 8 - Lab 2 - 4
-    //   Added Action Navigate
-
-
     Caption = 'Seminar Registration';
     PageType = Document;
     SourceTable = "CSD Seminar Reg. Header";

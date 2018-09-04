@@ -1,13 +1,10 @@
 table 123456710 "CSD Seminar Reg. Header"
 {
-    // CSD1.00 - 2018-01-01 - D. E. Veloper
-    //   Chapter 6 - Lab 1-3 & Lab 1-4
-    //     - Created new table
     Caption = 'Seminar Registration Header';
-
-
     Fields
     {
+
+
         Field(1; "No."; Code[20])
         {
             Caption = 'No.';
@@ -228,7 +225,7 @@ table 123456710 "CSD Seminar Reg. Header"
         Field(22; Comment; Boolean)
         {
             Caption = 'Comment';
-            CalcFormula = Exist ("CSD Seminar Comment Line" where ("Table Name" = const("Seminar Registration"),
+            CalcFormula = Exist ("CSD Seminar Comment Line" where ("Table Name" = const ("Seminar Registration"),
                                                               "No." = Field ("No.")));
             Editable = false;
             FieldClass = FlowField;
@@ -311,16 +308,16 @@ table 123456710 "CSD Seminar Reg. Header"
         SeminarRoom: Record Resource;
         SeminarSetup: Record "CSD Seminar Setup";
         NoSeriesMgt: Codeunit NoSeriesManagement;
-        Text001 : Label 'You cannot delete the Seminar Registration, because there is at least one %1 where %2=%3.';
-        Text002 : Label 'You cannot change the %1, because there is at least one %2 with %3=%4.';
+        Text001: Label 'You cannot delete the Seminar Registration, because there is at least one %1 where %2=%3.';
+        Text002: Label 'You cannot change the %1, because there is at least one %2 with %3=%4.';
         Text004: Label 'This Seminar is for %1 participants. \The selected Room has a maximum of %2 participants \Do you want to change %3 for the Seminar from %4 to %5?';
         Text005: Label 'Should the new %1 be copied to all %2 that are not yet invoiced?';
         Text006: Label 'You cannot delete the Seminar Registration, because there is at least one %1.';
 
     trigger OnDelete();
     begin
-        if (CurrFieldNo>0) then 
-          TestField(Status,Status::Canceled);
+        if(CurrFieldNo > 0) then
+            TestField(Status, Status::Canceled);
         SeminarRegLine.Reset;
         SeminarRegLine.SetRange("Document No.", "No.");
         SeminarRegLine.SetRange(Registered, true);

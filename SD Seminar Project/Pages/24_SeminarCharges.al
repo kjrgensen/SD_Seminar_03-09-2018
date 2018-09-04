@@ -1,9 +1,6 @@
 page 123456724 "CSD Seminar Charges"
 {
-    // CSD1.00 - 2018-01-01 - D. E. Veloper
-    //   Chapter 6 - Lab 1
-    //     - Created new page
-
+   
     AutoSplitKey = true;
     Caption = 'Seminar Charges';
     PageType = List;
