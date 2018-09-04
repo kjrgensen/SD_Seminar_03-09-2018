@@ -1,5 +1,6 @@
 page 123456710 "CSD Seminar Registration"
 {
+  
     Caption = 'Seminar Registration';
     PageType = Document;
     SourceTable = "CSD Seminar Reg. Header";
@@ -141,6 +142,19 @@ page 123456710 "CSD Seminar Registration"
                     RunObject = Page 123456724;
                     RunPageLink = "Document No." = Field ("No.");
                 }
+            }
+        }
+        area(Processing)
+        {
+            action("&Post")
+            {
+                Caption = '&Post';
+                Image = PostDocument;
+                Promoted = true;
+                PromotedIsBig = true;
+                PromotedCategory = Process;
+                ShortcutKey = F9;
+                RunObject = codeunit "CSD Seminar-Post (Yes/No)";
             }
         }
     }
